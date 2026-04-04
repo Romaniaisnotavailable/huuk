@@ -1,0 +1,114 @@
+body{
+    background-color: aquamarine;
+}
+header{
+    background-color: white;
+    margin-top: 0 %;
+}
+main{
+    background-color: rgb (0, 0, 0);
+    height: 500 px;
+    width: 1100px;
+    margin-top: -25 px;
+    border: 3 px solid green;
+
+}
+footer{
+background-color: rgb (152, 255, 107);
+height: 360 px;
+}
+.b{
+    color: greenyellow;
+    font-size: 20 px
+}
+.c{
+   float: right;
+    margin-top: -134 px;
+    margin-right: 1000 px; 
+    border-radius: 20 px;
+    height: 30 px;
+    width: 80 px;
+    background-color: rgb (255, 255, 255);
+    color: rgb (0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.d{
+    float: right;
+    margin-top: -134 px;
+    margin-right: 890 px;
+    border-radius: 18 px;
+    width: 100 px;
+    height: 40 px;
+    background-color: rgb (255, 255, 255);
+    color: rgb (0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.e{
+    float: right;
+     margin-top: -134 px;
+    margin-right: 600 px;
+    border-radius: 10 px;
+    width: 30 px;
+    height: 20 px;
+}
+.f{
+       float: right;
+    margin-top: -134 px;
+    margin-right: 775 px;
+    border-radius: 18 px;
+    width: 100 px;
+    height: 40 px;
+    background-color: rgb (255, 255, 255);
+    color: rgb (0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.g{
+     float: right;
+    margin-top: -134 px;
+    margin-right: 650 px;
+    border-radius: 18 px;
+    width: 100 px;
+    height: 40 px;
+    background-color: rgb (255, 255, 255);
+    color: rgb (0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.i{
+    width: 50 %;
+    height: 50 %;
+    background-color: rgb (255, 255, 255);
+     margin-top: 74 px;
+}
+.j{
+    width: 50 %;
+    height: 50 %;
+    background-color: rgb (255, 194, 194);
+    float: right;
+    margin-top: 70 px;
+}
+.k{
+ width: 50 px;
+ height: 30 px;
+ border-radius:20 px ;
+}
+.button{
+     width: 45 px;
+    height: 45 px;
+    border-radius: 20 px;
+    background-color: rgb (255, 255, 255);
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+ h3{
+    font-family: 'Courier New', Courier, monospace;
+ }
+ h4{
+    font-family: 'Courier New', Courier, monospace;
+ }
