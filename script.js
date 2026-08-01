@@ -1,0 +1,10 @@
+const sqr = document.querySelector('.sqr');
+document.querySelector('.B1').onclick = () => sqr.style.backgroundColor = 'red';
+document.querySelector('.B2').onclick = () => sqr.style.backgroundColor = 'blue';
+document.querySelector('.B3').onclick = () => sqr.style.backgroundColor = 'green';
+document.querySelector('.B4').onclick = () => sqr.style.backgroundColor = 'yellow';
+document.querySelector('.B5').onclick = () => sqr.style.backgroundColor = 'purple';
+document.querySelector('.B6').onclick = () => sqr.style.backgroundColor = 'black';
+document.querySelector('.B7').onclick = () => sqr.style.backgroundColor = 'brown';
+document.querySelector('.B8').onclick = () => sqr.style.backgroundColor = 'maroon';
+document.querySelector('.B9').onclick = () => sqr.style.backgroundColor = 'black';

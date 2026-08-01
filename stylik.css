@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url('/home/archiso/Документы/M5/projectwork/colorful-gradient-background-free-free-vector-3042854380.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.activate-windows {
+    position: fixed;
+    bottom: 30px; 
+    right: 35px;
+    z-index: 999999;
+    color: rgba(255, 255, 255, 0.45);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    line-height: 1.35;
+    pointer-events: none; 
+}
+
+main {
+    display: flex;       
+    gap: 15px;             
+    justify-content: center;
+    max-width: 800px;      
+}
+
+main button {
+    width: 130px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #3b3346;
+    color: #fff;
+    font-size: 16px;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+main button:hover {
+    background-color: #4a4158;
+    transform: translateY(-2px);
+}
+
+.sqr{
+    background-color: white;
+    width: 1000px;
+    height: 300px;
+    z-index: 20;
+    position: absolute;
+    margin-top: -350px;
+}
