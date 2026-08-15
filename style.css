@@ -1,56 +1,66 @@
 body {
-    margin: 0;
-    min-height: 100vh;
-    background-image: url('/home/archiso/Документы/M5/projectwork/colorful-gradient-background-free-free-vector-3042854380.jpg');
-    background-size: cover; 
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url(https://i.artfile.ru/1920x1080_1083541_[www.ArtFile.ru].jpg);
+    background-attachment: fixed;
+    padding: 50px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
-.activate-windows {
-    position: fixed;
-    bottom: 30px; 
-    right: 35px;
-    z-index: 999999;
-    color: rgba(255, 255, 255, 0.45);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: left;
-    line-height: 1.35;
-    pointer-events: none; 
+h1 {
+    color: white;
+    font-size: 80px;
+    text-shadow: 0px 2px 2px rgb(83, 78, 78);
 }
 
-main {
-    display: flex;       
-    gap: 15px;             
-    justify-content: center;
-    max-width: 800px;      
-}
-
-main button {
-    width: 130px;
-    height: 50px;
+.btn {
+    text-align: center;
+    padding: 10px 50px;
+    font-size: 30px;
+    color: wheat;
+    margin-bottom: 30px;
+    background-color: orange;
+    border-radius: 30px;
     cursor: pointer;
-    border: none;
-    border-radius: 8px;
-    background-color: #3b3346;
-    color: #fff;
-    font-size: 16px;
-    transition: background-color 0.2s, transform 0.1s;
 }
 
-main button:hover {
-    background-color: #4a4158;
-    transform: translateY(-2px);
+.btn:hover {
+    background-color: rgb(21, 14, 82);
 }
 
-.sqr{
-    background-color: white;
-    width: 1000px;
-    height: 300px;
-    z-index: 20;
-    position: absolute;
-    margin-top: -350px;
+#gamezone {
+    border: 1px solid black;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP._6dRXRuZKMOHS1iULj7i8QHaE7%3Fpid%3DApi&f=1&ipt=40936815ca8463e1e9395725bd7c0d844d583835ad8aa7d8e22ed13b0d92dd7c&ipo=images);
+    height: 350px;
+    width: 650px;
+    border-radius: 20px;
+}
+
+.character:hover{
+    scale: 1.1;
+}
+
+.character {
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    background-color: orange;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpngimg.com%2Fuploads%2Fletter_a%2Fletter_a_PNG19884.png&f=1&nofb=1&ipt=1ae5f72814c00311fd65e4a14b4f67dd0a3b3f4f80d45486b6bc90f35f34152c);
+    background-size: cover;
+    background-position: center;
+    display: none; 
+}
+.characterVisible {
+    display: block !important;
+}
+
+.hidden {
+    display: none !important;
+}
+.naruto {
+    background-image: url("naruto.jpg");
+    background-size: cover;
+    background-position: center;
 }
